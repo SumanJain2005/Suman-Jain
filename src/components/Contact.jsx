@@ -14,7 +14,9 @@ const Contact = () => {
           initial={{opacity:1, x: -100}} 
           transition={{duration:1}} 
         >
-          <FaLinkedin className="text-5xl text-blue-500" />
+          <a href="https://www.linkedin.com/in/suman-naresh-jain/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <FaLinkedin className="text-5xl text-blue-500" />
+          </a>
         </motion.div>
         <motion.div
           whileInView={{opacity:1, x:0}} 
